@@ -50,6 +50,7 @@ class MasterFragment : Fragment(), OnItemCLickListener {
         })
     }
 
+    //OnItemclick update MutableLiveData
     override fun onItemClick(position: Int) {
 //        Toast.makeText(requireContext(), String.valueOf(position), Toast.LENGTH_SHORT).show();
         sharedViewModel!!.setMovie(position)
