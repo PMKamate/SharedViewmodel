@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.practicaltest.sharedviewmodel.MovieAdapter.OnItemCLickListener
 
 
-
+//This is master fragment
 class MasterFragment : Fragment(), OnItemCLickListener {
     lateinit var recyclerView: RecyclerView
     private var movieAdapter: MovieAdapter? = null
