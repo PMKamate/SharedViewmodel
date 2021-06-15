@@ -12,7 +12,7 @@ import androidx.navigation.Navigation
 
 
 /**
- * A simple [Fragment] subclass.
+ * A simple [detailFragment] subclass.
  */
 class DetailFragment : Fragment() {
     private var nameTextView: TextView? = null
